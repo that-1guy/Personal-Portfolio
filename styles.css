@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Nabla&family=Oswald&family=Reem+Kufi+Fun:wght@400..700&family=Tektur&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --font-family: "Reem Kufi Fun", sans-serif;
+    --background-color: #4d4d4d;
+    --text-color: white;
+    --border-color: #EBEBEB;
+    --margin-top: 98px;
+    --hover-color: #f3f3f3;
+    --secondary-color: #4d4d4d;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    letter-spacing: 1.5px;
+}
+
+a {
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+    background-color: var(--hover-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    position: sticky;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    border-bottom: 1px solid var(--border-color);
+
+}
+.navlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.one {
+    position: absolute;
+    left: 5%;
+
+}
+
+.two {
+    position: absolute;
+    left: 30%;
+}
+
+.three {
+    position: absolute;
+    left: 65%;
+}
+
+.four {
+    position: absolute;
+    left: 85%;
+}
+
+.navlist img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 96px;
+    max-height: 96px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: var(--margin-top);
+}
+
+.profile img {
+    display: flex;
+    position: sticky;
+    left: 10%;
+    max-height: 650px;
+    max-width: 650px;
+    padding: 2em;
+}
+.hero {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    text-align: center;
+    max-width: 890px;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    padding: 1em;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.skills-icons {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    left: 2em;
+    padding: 5px;
+}
+
+.tools {
+    display: inline-block;
+    background-color: var(--hover-color);
+    border-radius: 20px;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    padding: 3px;
+    margin: 20px;
+
+}
+
+.skill1 {
+    background-color: var(--hover-color);
+    border-radius: 20px;
+    /*display: inline-flex;*/
+    color: var(--background-color);
+    margin: 10px;
+    
+}
+
+.skill2 {
+    background-color: var(--hover-color);
+    border-radius: 20px;
+    /*display: inline-flex;*/
+    color: var(--background-color);
+    margin: 10px;
+}
