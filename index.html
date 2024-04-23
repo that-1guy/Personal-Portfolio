@@ -10,42 +10,46 @@
     </head>
 <body>
         <nav class="navbar">
-            <ul class="navlist">
-                <li class="one"><a href="#about">About Me</a></li>
-                <li class="two"><a href="#skills">Skills</a></li>
-                <li class="three"><a href="#projects">Projects</a></li>
-                <li class="four"><a href="#contact">Contact Me</a></li>
-                <img src="assets/NVH button logo.svg" alt="NVH Avatar" />
-            </ul>
+            <h1 class="navh1">Nicholas Van Hemert</h1>
+                <div class="navContainer">
+                    <a href="#about" class="navSplit">About Me</a>
+                    <a href="#skills" class="navSplit">Skills</a>
+                    <a href="#projects" class="navSplit">Projects</a>
+                    <a href="#contact" class="navSplit">Contact Me</a>
+                    <a href="" target="_blank" class="navSplit">Resume</a>
+                </div>
         </nav>
+
     <section class="about" id="about">
         <h2>About Me</h2>
-        <div class="profile">
-            <img src="assets/nick.png" alt="Nick.png" />
-        </div>
-        <div class="hero">
-            <p> Hello, My name is Nicholas Van Hemert. 
-                I am a UX/UI Researcher and Designer. 
-                I have knowledge in Prototyping, Wireframes, and User Journeys, and I also have skills in the use of Figma and Adobe Xd. 
-                To create easy to use, user friendly experiences and interactions.
-                I am also a Front-end Web developer. 
-                I have skills and knowledge in the use of HTML5, CSS3, Javascript, and React to create web based content.
-
-            </p>
+        <div class="profileContainer">
+            <div class="profile">
+                <img src="assets/nick.png" alt="Nick.png" loading="lazy"/>
+            </div>
+            <div class="hero">
+                <p> Hello, I'm Nicholas Van Hemert, a multifaceted professional specializing in UX/UI research, design, and front-end web development. 
+                With a comprehensive skill set, I excel in crafting intuitive and user-friendly experiences. 
+                My expertise extends to utilizing front-end development tools to transform UI prototypes into responsive and functional web pages. 
+                If you're interested in learning more about my work or discussing potential collaborations, please don't hesitate to <a href="#contact">contact me</a>.
+                </p>
+            </div>
         </div>
     </section>
+
     <section class="skills" id="skills">
+        <!--svg imgs-->
         <h2>Skills</h2>
         <div class="skills-icons">
-            <img src="assets/icons8-html5.svg" alt="HTML5 icon" class="tools"/>
-            <img src="assets/icons8-css3.svg" alt="CSS3 icon" class="tools"/>
-            <img src="assets/icons8-javascript (1).svg" alt="Javascript Icon" class="tools"/>
-            <img src="assets/icons8-react.svg" alt="React Icon" class="tools"/>
-            <img src="assets/icons8-figma.svg" alt="Figma Icon" class="tools"/>
-            <img src="assets/icons8-adobe-xd.svg" alt="Adobe Xd Icon" class="tools"/>
+            <img src="assets/icons8-html5.svg" alt="HTML5 icon" loading="lazy" class="tools"/>
+            <img src="assets/icons8-css3.svg" alt="CSS3 icon" loading="lazy" class="tools"/>
+            <img src="assets/icons8-javascript (1).svg" alt="Javascript Icon" loading="lazy" class="tools"/>
+            <img src="assets/icons8-react.svg" alt="React Icon" loading="lazy" class="tools"/>
+            <img src="assets/icons8-figma.svg" alt="Figma Icon" loading="lazy" class="tools"/>
+            <img src="assets/icons8-adobe-xd.svg" alt="Adobe Xd Icon" loading="lazy" class="tools"/>
         </div>
-        <div class="skill1">
-            <h4>Front-end Skills</h4>
+        <!--skills list cards-->
+        <div class="skills-list">
+            <h4>Front-end</h4>
             <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -54,8 +58,8 @@
                 <li>Visual Studio Code</li>
             </ul>
         </div>
-        <div class="skill2">
-            <h4>Ux/Ui Skills</h4>
+        <div class="skills-list">
+            <h4>UX/UI</h4>
             <ul>
                     <li>Personas</li>
                     <li>User Journeys</li>
@@ -67,23 +71,119 @@
             </ul>
         </div>
     </section>
+
     <section class="projects" id="projects">
         <h2>Projects</h2>
-        <div class="proj1"></div>
-        <div class="proj2"></div>
-        <div class="proj3"></div>
-    </section>
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <div class="socials">
-            <img src="assets/icons8-linkedin (1).svg" alt="LinkedIn Icon" class="linkedin" />
-            <img src="assets/icons8-github (1).svg" alt="Github Icon" class="github" />
-            <img src="assets/icons8-twitter.svg" alt="Twitter icon" class="twitter" />
-            <img src="assets/icons8-instagram (1).svg" alt="Instagram Icon" class="instagram" />
+           <div class="projectsContainer">
+            <a href="ticketapp.html" target="_self">
+            <div class="proj1">
+                <h6>TicketApp</h6>
+                <img src="assets/ticketapp-screenshot.png" loading="lazy" class="ticketapp" target="_blank" alt="TicketApp mockup"/>
+                <p class="description">My first UX/UI project using Figma. 
+                    From a sharpen.design prompt to a high-fidelity prototype. 
+                </p>
+            </div>
+            </a>
+            <div class="proj1">
+                <h6>Boardbuilder</h6>
+                <img src="assets/Boardbuilder-mockup.png" target="_blank" loading="lazy" class="boardbuilder" alt="Boardbuilder mockup"/>
+                <p class="description">Inactive Rideshop high-fidelity prototype.
+                </p>
+            </div>
+            <div class="proj1">
+                <h6>Insert Title Here</h6>
+                <img src="" target="_blank" loading="lazy" />
+                <p class="description">Placeholder</p>
+            </div>
         </div>
     </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contactMeContainer">
+            <div class="contactMeForm">
+                <form action="https://formspree.io/f/xrgnbqqp" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="sender-name"
+                            placeholder="First Name Last Name..."
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Enter your email..."
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                cols="60"
+                                rows="10"
+                                placeholder="Enter your message..."
+                                class="input-field"
+                                required
+                            ></textarea>
+                    </div>
+                    <div class="send">
+                    <input class="sendBtn"
+                        type="button"
+                        value="Send"
+                        id="sumbitBtn"
+                    />
+                    </div>
+                </form>  
+            </div>
+        </div>
+    </section>
+    <section class="social">  
+        <div class="socialContainer">       
+        <div class="socials">
+            <!--Linkedin-->
+            <a href="" target="_blank" >
+                <img
+                src="assets/icons8-linkedin (1).svg"
+                alt="Linkedin Icon"
+                loading="lazy" />
+            </a>
+            <!--Github-->
+            <a href="" target="_blank" >
+                <img
+                src="assets/icons8-github (1).svg"
+                alt="Github Icon"
+                loading="lazy" />
+            </a>
+            <!--Twitter-->
+            <a href="" target="_blank" >
+                <img
+                src="assets/icons8-twitter.svg"
+                alt="Twitter Icon"
+                loading="lazy" />
+            </a>
+            <!--Instagram-->
+            <a href="" target="_blank" >
+                <img
+                src="assets/icons8-instagram (1).svg"
+                alt="Instagram Icon"
+                loading="lazy" />
+            </a>
+        </div>
+    </div>
+    </section>
+
     <footer class="footer">
-        <p class="copyright">Copyright© Nicholas Van Hemert 2024</p>
+        <p class="copyright">Copyright© Nicholas Van Hemert 2024 😎</p>
     </footer>
 </body>
 </html>
