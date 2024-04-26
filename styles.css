@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Nabla&family=Oswald&family=Reem+Kufi+Fun:wght@400..700&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Nabla&family=Oswald&family=Reem+Kufi+Fun:wght@400..700&family=Tektur&family=Ubuntu+Condensed&display=swap');
 
 
 * {
@@ -9,7 +9,7 @@
 
 :root {
 
-    --font-family: "Reem Kufi Fun", sans-serif;
+    --font-family: "Ubuntu Condensed", sans-serif;
     --primary-color: #4d4d4d;
     --text-color: white;
     --secondary-color: #EBEBEB;
@@ -123,7 +123,7 @@ h6 {
 }
 
 .hero p {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.6;
     max-width: fit-content;
 }
