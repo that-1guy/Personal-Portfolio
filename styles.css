@@ -41,6 +41,7 @@ a {
 .uxP {
     margin-top: 10px;
     font-size: 18px;
+    max-width: 80%;
 }
 
 .avatar:hover {
@@ -419,6 +420,67 @@ h6 {
     max-width: 50%;
 }
 
+.personas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.users img {
+    width: 750px;
+    height: auto;
+    margin: 30px;
+}
+
+.journey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.journeymaps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.journeymaps img {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+
+}
+
+.compAudits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.compAudits img {
+    width: 700px;
+    height: auto;
+    margin: 30px;
+}
+
 .roughs {
     display: flex;
     align-items: center;
@@ -427,24 +489,119 @@ h6 {
 
 }
 
-.roughs p {
-    margin-top: 10px;
-
-}
-
 .roughsWireframes {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     
 }
 
-.rough {
-    max-width: 25%;
+.roughsWireframes img {
+    width: 500px;
+    height: auto;
     margin: 8rem;
-    margin-top: -9rem;
-    rotate: -90deg;
+    margin-top: -7rem;
+    margin-bottom: -5rem;
+    transform: rotate(-90deg);
+
 
 }
 
+.early {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.concepts {
+    display: run-in;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.concepts img {
+    width: 230px;
+    height: auto;
+    margin: 20px;
+    margin-top: 30px;
+    border: none none none;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+.conceptsBorder {
+    border: 3px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: var(--box-shadow) black;
+
+}
+
+.lofi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.lofiPrototype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lofiPrototype img {
+    max-width: 90%;
+    height: auto;
+    margin: 30px;
+
+}
+
+.study {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.affinity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.affinity img {
+    max-width: 50%;
+    height: auto;
+    margin: 30px;
+
+}
+
+.mockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mockupColor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mockupColor img {
+    max-width: 95%;
+    margin: 30px;
+}
