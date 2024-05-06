@@ -517,9 +517,10 @@ h6 {
 }
 
 .concepts {
-    display: run-in;
+    display: inline-table;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -603,5 +604,27 @@ h6 {
 
 .mockupColor img {
     max-width: 95%;
+    margin: 30px;
+}
+
+.prototype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.hifi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hifi img {
+    max-width: 50%;
+    height: auto;
     margin: 30px;
 }
