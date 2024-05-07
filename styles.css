@@ -386,6 +386,8 @@ h6 {
 
 /* Portfoilio projects styles */
 
+/* Ticketapp */
+
 .ticketappContainer {
     display: flex;
     align-items: center;
@@ -628,3 +630,25 @@ h6 {
     height: auto;
     margin: 30px;
 }
+
+.clickMe {
+    margin: 30px;
+    width: auto;
+    height: 4rem;
+    box-shadow: var(--box-shadow) black;
+}
+
+.clickMe a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 25px;
+}
+
+.clickMe:hover {
+    background-color: white;
+}
+
+/* Boardbuilder */
+
