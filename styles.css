@@ -673,13 +673,14 @@ h6 {
     font-family: 'Impact', sans-serif;
     font-size: 64px;
     font-weight: 300;
-    margin: 15px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .emblem {
     align-items: center;
-    margin: auto;
+    margin-top: 30px;
+
 }
 
 .inactiveMockup {
@@ -687,3 +688,36 @@ h6 {
     max-width: 50%;
     height: auto;
 }
+
+.inactiveButton {
+    margin: 30px;
+    width: auto;
+    height: 4rem;
+    box-shadow: var(--box-shadow) black;
+}
+
+.inactiveButton a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 25px;
+}
+
+.resumeTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resumeH1 {
+    font-size: 42px;
+    margin: 30px;
+}
+
+.guardContainer {
+    margin: 15px;
+}
+
+
