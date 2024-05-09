@@ -704,6 +704,8 @@ h6 {
     padding: 25px;
 }
 
+/*resume section*/
+
 .resumeH1 {
     display: flex;
     align-items: center;
@@ -716,6 +718,7 @@ h6 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: start;
 }
 
 .jobContainer {
@@ -747,8 +750,24 @@ h6 {
 }
 
 .education {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+}
+
+.educationContainer {
+}
+
+.educationInfo {
+    line-height: 1.2;
+    margin-top: 30px;
+}
+
+.educationTitle {
+    font-size: 25px;
+}
+
+.educator {
+    font-size: 19px;
+    font-weight: lighter;
 }
