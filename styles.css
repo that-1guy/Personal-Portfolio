@@ -54,6 +54,22 @@ ul {
     list-style-type: none;
 }
 
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: var(--margin-top);
+    padding-top: 15px;
+}
+
+h6 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/*nav section */
+
 .navbar {
     display: flex;
     border-bottom: 3px solid var(--secondary-color);
@@ -92,19 +108,7 @@ ul {
     text-decoration: none;
 }
 
-h2 {
-    text-align: center;
-    text-decoration: underline;
-    margin-top: var(--margin-top);
-    padding-top: 15px;
-}
-
-h6 {
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 10px;
-    font-size: 24px;
-}
+/*About Me section*/
 
 .profileContainer {
     display: flex;
@@ -137,6 +141,7 @@ h6 {
     max-width: fit-content;
 }
 
+/*Skills Section*/
 
 .skills {
     display: flex;
@@ -199,6 +204,14 @@ h6 {
 
 }
 
+/*Projects Section*/
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .projects a {
     text-decoration: none;
 
@@ -209,7 +222,7 @@ h6 {
     margin-top: 25px;
 }
 
-/* projects placeholder */
+/* projects boxes*/
 .proj1 {
     background-color: var(--secondary-color);
     border-radius: 20px;
@@ -256,6 +269,8 @@ h6 {
     height: 480px;
     margin-top: 15px;
 }
+
+/*Contact Me Section*/
 
 .contact {
     display: flex;
@@ -336,6 +351,8 @@ h6 {
 
 }
 
+/*Social Media container*/
+
 .socialContainer {
     display: flex;
     align-items: center;
@@ -380,9 +397,9 @@ h6 {
 
 .copyright {
     margin: 35px;
-    max-width: 10%;
+    max-width: 25%;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     border-top: 1px solid var(--secondary-color);
 }
 
