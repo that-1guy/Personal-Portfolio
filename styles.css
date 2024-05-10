@@ -704,6 +704,10 @@ h6 {
     padding: 25px;
 }
 
+.inactiveButton:hover {
+    background-color: white;
+}
+
 /*resume section*/
 
 .resumeH1 {
@@ -750,12 +754,14 @@ h6 {
 }
 
 .education {
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .educationContainer {
+    margin-top: 30px;
+
 }
 
 .educationInfo {
@@ -768,6 +774,31 @@ h6 {
 }
 
 .educator {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.certificates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificatesContainer {
+    margin-top: 30px;
+}
+
+.certifications {
+    margin: 15px;
+    line-height: 1.5;
+}
+
+.certificationTitle {
+    font-size: 25px;
+
+}
+
+.certificationYear {
     font-size: 19px;
     font-weight: lighter;
 }
