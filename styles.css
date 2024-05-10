@@ -136,6 +136,7 @@ h6 {
 }
 
 .hero p {
+    display: flex;
     font-size: 19px;
     line-height: 1.6;
     max-width: fit-content;
@@ -152,18 +153,19 @@ h6 {
 
 
 .skills .skills-icons {
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 10px;
 }
 
 .tools {
+    display: flex;
     background-color: var(--secondary-color);
     height: 120px;
     width: 120px;
     margin: 15px;
-    margin-top: var(--margin-top);
+    margin: var(--margin-top) 15px;
     border-radius: 20px;
     object-fit: scale-down;
     box-shadow: var(--box-shadow) var(--shadow-color);
@@ -172,13 +174,12 @@ h6 {
 .skills-list {
     background-color: var(--secondary-color);
     border-radius: 20px;
-    margin: 15px;
+    margin: 10px;
     display: inline-block;
     width: 350px;
     height: 250px;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
     box-shadow: var(--box-shadow) var(--shadow-color);
         
 }
@@ -212,11 +213,6 @@ h6 {
     justify-content: center;
 }
 
-.projects a {
-    text-decoration: none;
-
-}
-
 .projectsContainer {
     display: flex;
     margin-top: 25px;
@@ -245,8 +241,13 @@ h6 {
     padding-top: 24px;
 }
 
+.proj1 a {
+    text-decoration: none;
+    color: black;
+}
+
 .proj1 .ticketapp {
-    width: auto;
+    max-width: auto;
     height: 480px;
     margin-top: 15px;
 }
@@ -265,7 +266,7 @@ h6 {
 
 
 .proj1 .boardbuilder {
-    width: auto;
+    max-width: auto;
     height: 480px;
     margin-top: 15px;
 }
