@@ -149,53 +149,61 @@ h6 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: var(--margin-top);
 }
 
-
-.skills .skills-icons {
-    display: inline-flex;
-    flex-direction: row;
+.skillsIcons {
+    display: inherit;
     align-items: center;
-    justify-content: center;
+    margin: 15px;
+
+}
+
+.skillsIcons img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
 }
 
 .tools {
+    background-color: var(--secondary-color);
+    margin: 20px;
+    box-shadow: var(--box-shadow) var(--shadow-color);
+    border-radius: 15px;
+
+}
+
+.listContainer {
     display: flex;
-    background-color: var(--secondary-color);
-    height: 120px;
-    width: 120px;
+    align-items: flex-start;
     margin: 15px;
-    margin: var(--margin-top) 15px;
-    border-radius: 20px;
-    object-fit: scale-down;
-    box-shadow: var(--box-shadow) var(--shadow-color);
 }
 
-.skills-list {
+.skillsList {
+    display: inherit;
+    flex-direction: column;
+    text-align: center;
     background-color: var(--secondary-color);
-    border-radius: 20px;
-    margin: 10px;
-    display: inline-block;
-    width: 350px;
-    height: 250px;
-    align-items: center;
-    justify-content: center;
     box-shadow: var(--box-shadow) var(--shadow-color);
-        
+    border-radius: 15px;
+    width: 22rem;
+    height: 20rem;
+    margin: 25px;
+    color: var(--primary-color);
+    padding: 10px;
 }
 
-.skills-list h4 {
-    color: var(--primary-color);
-    font-size: 22px;
-    text-align: center;
-    margin-top: 12px;
+.skillsList h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
-.skills-list li {
-    color: var(--primary-color);
-    font-size: 17px;
-    text-align: center;
+.skillsList ul {
+    font-size: 20px;
+    line-height: 1.5;
 }
+
+/*Projects Section*/
 
 .projects {
     display: flex;
@@ -204,8 +212,6 @@ h6 {
     flex-direction: column;
 
 }
-
-/*Projects Section*/
 
 .projects {
     display: flex;
