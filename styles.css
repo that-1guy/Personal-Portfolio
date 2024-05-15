@@ -114,6 +114,7 @@ h6 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -121,27 +122,27 @@ h6 {
     display: flex;
     max-width: 45%;
     margin: auto;
-    padding: 15px;
     margin-left: 35%;
-    border-radius: 45px;
-    margin-top: var(--margin-top)
-
-}
-.hero {
-    display: flex;
-    max-width: 35%;
-    padding: 20px;
-    margin-right: 15%;
     margin-top: var(--margin-top);
+    border-radius: 45px;
+    
+
 }
 
-.hero p {
-    display: flex;
-    font-size: 19px;
-    line-height: 1.6;
-    max-width: fit-content;
+.hero {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.heroText {
+    font-size: 20px;
+    text-align: start;
+    max-width: 70%;
+    max-height: fit-content;
+    line-height: 1.5;
+    
+}
 /*Skills Section*/
 
 .skills {
@@ -156,6 +157,7 @@ h6 {
     display: inherit;
     align-items: center;
     margin: 15px;
+    margin-top: var(--margin-top);
 
 }
 
