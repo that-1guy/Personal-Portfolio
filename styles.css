@@ -291,7 +291,7 @@ h6 {
 .contactMeForm {
     border: 3px solid var(--secondary-color);
     border-radius: 20px;
-    height: 470px;
+    height: fit-content;
     width: 500px;
     box-shadow: var(--box-shadow) var(--shadow-color);
     text-align:left;
@@ -334,6 +334,13 @@ h6 {
     max-height: 200px;
     padding: 10px;
 
+}
+
+.h-captcha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .send {

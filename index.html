@@ -114,14 +114,14 @@
         <h2>Contact Me</h2>
         <div class="contactMeContainer">
             <div class="contactMeForm">
-                <form action="https://formspree.io/f/moqgbzwj" 
-                method="POST">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="28f05624-a2a5-42cb-a07d-30636250d06e">
                     <div class="form-control">
                         <label for="name">Name</label>
                         <input
                             type="text"
                             id="name"
-                            name="sender-name"
+                            name="name"
                             placeholder="First Name Last Name..."
                             class="input-field"
                             required
@@ -132,7 +132,7 @@
                         <input
                             type="email"
                             id="email"
-                            name="sender-email"
+                            name="email"
                             placeholder="Enter your email..."
                             class="input-field"
                             required
@@ -144,19 +144,18 @@
                                 id="message"
                                 cols="60"
                                 rows="10"
+                                name="message"
                                 placeholder="Enter your message..."
                                 class="input-field"
                                 required
                             ></textarea>
                     </div>
+                    <div class="h-captcha" data-captcha="true"></div>
                     <div class="send">
-                    <input class="sendBtn"
-                        type="button"
-                        value="Send"
-                        id="sumbitBtn"
-                    />
+                    <button class="sendBtn" type="submit" >Send</button>
                     </div>
                 </form>  
+                <script src="https://web3forms.com/client/script.js" async defer></script>
             </div>
         </div>
     </section>
