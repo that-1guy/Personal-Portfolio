@@ -90,6 +90,10 @@ h6 {
     text-decoration: none;
 }
 
+.burgerMenu {
+    display:none
+}
+
 .navContainer {
     margin-left: auto;
     margin-right: 25px;
