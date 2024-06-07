@@ -444,6 +444,10 @@ h6 {
     border-top: 1px solid var(--secondary-color);
 }
 
+.toTop {
+    display: none;
+}
+
 /* Portfoilio projects styles */
 
 /* Ticketapp */
@@ -555,16 +559,14 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: inline-block;
     
 }
 
 .roughsWireframes img {
     width: 500px;
     height: auto;
-    margin: 8rem;
-    margin-top: -7rem;
-    margin-bottom: -5rem;
-    transform: rotate(-90deg);
+    margin: 30px;
 
 
 }
