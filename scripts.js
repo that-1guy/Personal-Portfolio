@@ -1,3 +1,4 @@
+//Script function for contact container
 const form = document.getElementById('YOUR_FORM_ID');
 
 form.addEventListener('submit', function(e) {
@@ -10,3 +11,12 @@ form.addEventListener('submit', function(e) {
         return
     }
 });
+
+//To top function
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
