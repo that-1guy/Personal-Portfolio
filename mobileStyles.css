@@ -34,7 +34,7 @@ body {
     background-color: var(--primary-color);
     color: var(--text-color);
     letter-spacing: 1.5px;
-    padding: 15px;
+    padding: 20px;
 }
 
 a {
@@ -74,7 +74,7 @@ p {
 }
 
 /*Media Query Section*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 
     .navbar {
         display: flex;
@@ -283,6 +283,7 @@ p {
         justify-content: center;
         flex-direction: column;
     }
+
     
     .contactMeForm {
         border: 3px solid var(--secondary-color);
@@ -332,12 +333,12 @@ p {
         padding: 10px;
     
     }
-    
+
     .h-captcha {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 10px;
+        margin: 10px;
     }
     
     .send {
@@ -369,7 +370,7 @@ p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 8px;
+        margin-top: 10px;
     }
     
     .socials a:hover {
@@ -385,8 +386,8 @@ p {
     
     .socials img {
         background-color: none;
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
         display: inline-block;
         align-items: center;
         justify-content: center;
@@ -419,19 +420,24 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        background-color: var(--secondary-color);
+        
     }
 
     .topBtn {
-        width: 110%;
-        height: 55px;
+        width: 50%;
+        height: 75px;
         font-size: 24px;
         font-family: var(--font-family), sans-serif;
         background-color: transparent;
         border: none;
-        border-top: 3px solid var(--secondary-color);
-        color: var(--secondary-color);
-        font-weight: 525;
+        color: black;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .upArrow {
+        margin: -20px;
     }
 
     /*Ticketapp section*/
