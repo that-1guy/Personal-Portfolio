@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Nabla&family=Oswald&family=Reem+Kufi+Fun:wght@400..700&family=Tektur&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Madimi+One&family=Nabla&family=Oswald&family=Reem+Kufi+Fun:wght@400..700&family=Tektur&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Text:wght@100..900&family=Caveat+Brush&family=Madimi+One&family=Nabla&family=Oswald&family=Reem+Kufi+Fun:wght@400..700&family=Tektur&family=Ubuntu+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --font-family: "Ubuntu Condensed", sans-serif;
+    --primary-color: #4d4d4d;
+    --text-color: white;
+    --secondary-color: #EBEBEB;
+    --shadow-color: black;
+    --box-shadow: 0 3px 10px;
+    --margin-top: 98px;
+    --hover-color: #f3f3f3;
+    --h2-margins: 18px;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    letter-spacing: 1.5px;
+    padding: 20px;
+}
+
+a {
+    color: var(--text-color);
+}
+
+.uxP {
+    margin-top: 10px;
+    font-size: 18px;
+    max-width: 80%;
+}
+
+.avatar:hover {
+    background-color: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: var(--margin-top);
+    padding-top: 15px;
+}
+
+h6 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+}
+
+/*Media Query Section*/
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 24px;
+        
+    }
+
+    .navContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .navSplit {
+        margin: 15px;
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 25px;
+        text-decoration: none;
+        background-color: var(--secondary-color);
+        width: 12rem;
+        height: 3rem;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow) var(--shadow-color);
+
+    }
+
+    .resumeH1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .jobsTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+
+    .jobs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .jobsContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .experience {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .workTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 7px;
+        margin-top: 50px;
+        text-decoration: underline;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .years {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .duties {
+        margin-top: 10px;
+        margin-left: 3rem;
+        list-style-type: disc;
+        font-size: 17px;
+
+    }
+
+    li {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+}

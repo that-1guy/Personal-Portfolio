@@ -6,10 +6,12 @@
         </title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="styles.css" >
+        <link rel="stylesheet" media="screen and (max-width: 900px)" href="resumeMobile.css" >
+        <script src="scripts.js"></script>
     </head>
 <body>
-    <nav class="navbar">
+    <!--nav class="navbar">
         <h1 class="navh1"><a href="index.html">Nicholas Van Hemert</a></h1>
             <div class="navContainer" id="navLinks" >
                 <a href="index.html#about" class="navSplit" >About Me</a>
@@ -18,7 +20,7 @@
                 <a href="index.html#contact" class="navSplit" >Contact Me</a>
                 <a href="resume.html" class="navSplit" target="_blank" >Resume</a>
             </div>
-    </nav>
+    </nav-->
 
         <h1 class="resumeH1">Resume</h1>
         <h2 class="jobsTitle">Professional Experience</h2>
@@ -149,7 +151,7 @@
                     </li>
                 </ul>    
             </div>
-            
+
         </div>
      </section>
 
@@ -204,5 +206,11 @@
             </div>
         </div>
      </section>
-     <div class="toTop"><button class="topBtn">Top Of Page</button></div>
+
+     <div class="toTop">
+        <img src="assets/icons8-up-arrow.gif" alt="up arrow gif" class="upArrow"> 
+        <button onclick="scrollToTop()" class="topBtn">Top Of Page</button>
+        <img src="assets/icons8-up-arrow.gif" alt="up arrow gif" class="upArrow">
+    </div>
+     
 </body>
