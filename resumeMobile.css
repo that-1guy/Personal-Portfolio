@@ -185,4 +185,26 @@ p {
         line-height: 25px;
         margin-bottom: 10px;
     }
+    /*education h2 add a class to html soon*/
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .education {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .educationContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 }
