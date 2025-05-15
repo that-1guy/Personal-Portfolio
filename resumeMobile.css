@@ -58,6 +58,9 @@ h2 {
     text-decoration: underline;
     margin-top: var(--margin-top);
     padding-top: 15px;
+    padding-bottom: 10px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h6 {
@@ -69,6 +72,10 @@ h6 {
 
 p {
     text-align: center;
+}
+
+h1 {
+    font-size: 55px;
 }
 
 /*Media Query Section*/
@@ -177,12 +184,12 @@ p {
         margin-top: 10px;
         margin-left: 3rem;
         list-style-type: disc;
-        font-size: 17px;
-
+        font-size: 20px;
+        
     }
 
     li {
-        line-height: 25px;
+        line-height: 30px;
         margin-bottom: 10px;
     }
     /*education h2 add a class to html soon*/
@@ -200,11 +207,80 @@ p {
 
     }
 
-    .educationContainer {
+    .educationInfo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .educationTitle {
+        font-size: 25px;
+        text-align: left;
+        line-height: 2rem;
+    }
+
+    .educator {
+        font-size: 20px;
+        text-align: left;
+        font-weight: lighter;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .educationYear {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .certificates {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+    }
+
+    .certificationTitle {
+        font-size: 20px;
+        text-align: left;
+        line-height: 2rem;
+
+    }
+
+    .certificationYear {
+        font-size: 20px;
+        text-align: left;
+        font-weight: lighter;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+/*Top of page function*/
+
+    .toTop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--secondary-color);
+        
+    }
+
+    .topBtn {
+        width: 50%;
+        height: 75px;
+        font-size: 24px;
+        font-family: var(--font-family), sans-serif;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .upArrow {
+        margin: -20px;
     }
 
 }
