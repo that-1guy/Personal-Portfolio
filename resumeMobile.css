@@ -58,9 +58,10 @@ h2 {
     text-decoration: underline;
     margin-top: var(--margin-top);
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     background: var(--secondary-color);
     color: var(--primary-color);
+    border-radius: 10px;
 }
 
 h6 {
@@ -264,6 +265,8 @@ h1 {
         align-items: center;
         justify-content: center;
         background-color: var(--secondary-color);
+        border-radius: 10px;
+        margin-top: 20px;
         
     }
 

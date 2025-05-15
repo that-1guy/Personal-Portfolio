@@ -421,6 +421,7 @@ p {
         align-items: center;
         justify-content: center;
         background-color: var(--secondary-color);
+        border-radius: 10px;
         
     }
 
